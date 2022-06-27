@@ -10,7 +10,9 @@
 */
 
 //CODE HERE
-
+let gitDefinition = `Git is a program that acts as a version control system which allows groups of individuals to make chnages to code projects.`
+console.log(gitDefinition)
+    
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +20,8 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = `GitHub is a website where you can track and upload your code projects and files. You can connect your porjects to your GitHub profile by creating new repositories on your profile.`
+console.log(gitHubDefinition)
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -26,7 +29,8 @@
 */
 
 //CODE HERE
-
+let gitInitDefinition = `This will initialize a git repository which will be uploaded to your gitHub.`
+console.log(gitInitDefinition)
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -34,6 +38,8 @@
 */
 
 //CODE HERE
+let gitCloneDefinition = `This is a git command that allows you to make a copy of an exisiting git repository`
+console.log(gitCloneDefinition)
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -42,7 +48,8 @@
 */
 
 //CODE HERE
-
+let gitStatusDefinition = "This is a command that will allow you to see what stage of the git repository proccess you are on, as well as inform you what project you are trying to make a repository for. This will allow you to see which files are being tracked"
+console.log(gitStatusDefinition)
 //////////////////PROBLEM 6////////////////////
 /*
     Create a variable called 'gitAddDefinition'.  
@@ -53,7 +60,10 @@
 */
 
 //CODE HERE
-
+let gitAddDefinition = "This will prompt git to start tracking all files in a specific folder that you choose"
+console.log(gitAddDefinition)
+let gitAddCode = `git add .`
+console.log(gitAddCode)
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -64,8 +74,10 @@
 */
 
 //CODE HERE
-
-
+let gitCommitDefinition = `This command will take a screenshot of your exisitng code and save it to your git repository on github`
+console.log (gitCommitDefinition)
+let gitCommitCode = `commit -m "enter message here"`
+console.log (gitCommitCode)
 //////////////////PROBLEM 8////////////////////
 /*
     Create a variable called 'gitPushDefinition'.  
@@ -73,3 +85,5 @@
 */
 
 //CODE HERE
+let gitPushDefinition = `This command will push your code to gitHub when you want to save changes made to a exisiting file or just push a file to your gitHub when your first start your project.`
+console.log(gitPushDefinition)
